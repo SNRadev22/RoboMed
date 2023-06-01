@@ -29,6 +29,12 @@
 }.ulform{
     font-weight: bold;
     font-size: 18px;
-    /*Fixed an issue where bullets wouldn't show up in unordered lists on line 29*/
+    /*Fixed an issue where bullets wouldn't show up in unordered lists on line 33*/
     margin-left:1.3cm;
 }
+
+    /* Repossitioned the images*/
+    .img_possition_form{
+        display: flex;
+        gap: 50px;
+    }
