@@ -19,8 +19,8 @@
 
 
 
-* {
-}.ulform{
+
+.ulform{
     font-weight: bold;
     font-size: 18px;
     /*Fixed an issue where bullets wouldn't show up in unordered lists on line 33*/
@@ -28,7 +28,7 @@
     color:white;
 }
 
-    /* Repossitioned the images*/
+    /* Repositioned the images*/
     .img_possition_form{
         display: flex;
         gap: 50px;
@@ -51,16 +51,15 @@
         color:rgb(14, 52, 124);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    * {
-}.parform{
+
+.parform{
     font-size: 22px;
     margin-left: 0.3cm;
     color:white;
     font-size:27px;
     
 }
-* {
-}.headform{
+.headform{
     margin-left: 0.1cm;
     color:rgb(16, 130, 150);
     font-size:50px;
