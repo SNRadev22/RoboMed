@@ -16,14 +16,8 @@
         font-size: 25px;
     }
 
-* {
-}.parform{
-    font-size: 22px;
-    margin-left: 0.3cm;
-}
-* {
-}.headform{
-    margin-left: 0.1cm;
+
+
 }
 * {
 }.ulform{
@@ -38,3 +32,29 @@
         display: flex;
         gap: 50px;
     }
+    /*DESIGN*/
+    /*Changed the colour of all pages in the website*/
+    body{
+        background-color:rgb(17, 17, 17);
+    }
+    .navbar{
+        background-color:rgb(16, 130, 150);
+        border: 4px rgb(14, 52, 124) solid;
+    }
+    .navbar a{
+        color:rgb(14, 57, 124);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    * {
+}.parform{
+    font-size: 22px;
+    margin-left: 0.3cm;
+    color:white;
+    font-size:27px;
+}
+* {
+}.headform{
+    margin-left: 0.1cm;
+    color:rgb(16, 130, 150);
+    font-size:50px;
+}
