@@ -16,60 +16,63 @@
         font-size: 25px;
     }
 
-
-
-
-
 .ulform{
     font-weight: bold;
     font-size: 18px;
-    /*Fixed an issue where bullets wouldn't show up in unordered lists on line 33*/
+    /*Fixed an issue where bullets wouldn't show up in unordered lists on line 23*/
     margin-left:1.3cm;
     color:white;
 }
 
-    /* Repositioned the images*/
-    .img_possition_form{
-        display: flex;
-        gap: 50px;
-    }
-    .imghomep_possition_form{
-        display:flex;
-        gap:400px;
-    }
+/* Repositioned the images*/
 
-    /*DESIGN*/
-    /*Changed the colour of all pages in the website*/
-    body{
-        background-color:rgb(14, 13, 13);
-    }
-    .navbar{
-        background-color:rgb(16, 130, 150);
-        border: 4px rgb(14, 52, 124) solid;
-    }
-    .navbar a{
-        color:rgb(14, 52, 124);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+.img_possition_form{
+    display: flex;
+    gap: 50px;
+}
+
+.imghomep_possition_form{
+    display:flex;
+    gap:400px;
+}
+
+/*DESIGN*/
+/*Changed the colour of all pages in the website*/
+
+body{
+    background-color:rgb(14, 13, 13);
+}
+
+.navbar{
+    background-color:rgb(16, 130, 150);
+    border: 4px rgb(14, 52, 124) solid;
+}
+
+.navbar a{
+    color:rgb(14, 52, 124);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 .parform{
     font-size: 22px;
     margin-left: 0.3cm;
     color:white;
     font-size:27px;
-    
 }
+
 .headform{
     margin-left: 0.1cm;
     color:rgb(16, 130, 150);
     font-size:50px;
 }
+
 .mainH{
     color:rgb(16, 130, 150);
     font-size: 100px;
     text-align:center;
     margin:150px;
 }
+
 .mainH2{
     color:rgb(16, 130, 150);
     font-size: 55px;
@@ -79,15 +82,18 @@
     width:600px;
     height:600px;
 }
+
 .appimg{
     width:900px;
     height:700px;
 }
+
 img{
     align-self: center;
     max-width: 100%;
     flex-direction:column;
 }
+
 .Sources{
     text-decoration: none;
     font-size:35px;
