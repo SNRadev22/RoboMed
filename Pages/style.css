@@ -19,16 +19,14 @@
 
 .imghomep_possition_form{
     display:flex;
-    gap:400px;
 }
 
 /*DESIGN*/
 /*Changed the colour of all pages in the website*/
 
 body{
-    background-color:rgb(14, 13, 13);
+    background-color:rgb(0, 0, 0);
 }
-
 .navbar button:hover{
     background-color:aqua;
 }
@@ -36,12 +34,11 @@ body{
     background: aqua;
 }
 button{
-    size:50px;
-    font-size:25px;
+    font-size:20px;
     background-color:rgb(16, 130, 150);
     border: 4px rgb(14, 52, 124) solid;
-    width: 377px;
-    height: 107px;
+    width: 263px;
+    height: 110px;
     color: rgb(14, 52, 124)
 }
 .navbartext{
@@ -66,7 +63,7 @@ button{
 
 .mainH{
     color:rgb(16, 130, 150);
-    font-size: 100px;
+    font-size: 90px;
     text-align:center;
     margin:150px;
 }
@@ -96,4 +93,38 @@ img{
     text-decoration: none;
     font-size:35px;
     color:white;
+}
+.menupos{
+    display:flex;
+}
+.Page{
+    background-color: rgb(27, 26, 26);
+    height:2200px;
+    width:7000px;
+}
+.SupportUs{
+    background-color:rgb(27, 26, 26);
+    height:1000px;
+    width:1500px;
+}
+.Content{
+    background-color:rgb(27, 26, 26);
+    height:1000px;
+    width:1500px;
+}
+.menuheading{
+    font-size:20px;
+    background-color:rgb(16, 130, 150);
+    border: 4px rgb(14, 52, 124) solid;
+    width: 274px;
+    height: 102px;
+    color: rgb(14, 52, 124);
+}
+.ContentH{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.SupportUsH{
+    margin-left: 16px;
+    margin-top: 25px;
 }
