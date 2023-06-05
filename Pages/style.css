@@ -128,3 +128,15 @@ img{
     margin-left: 16px;
     margin-top: 25px;
 }
+.SupportUsH2{
+    color:rgb(16, 130, 150);
+    font-size:50px;
+}
+.menutext{
+    font-size: 30px;
+    color: white;
+}
+.menuform{
+    width:200px;
+    height:50px;
+}
