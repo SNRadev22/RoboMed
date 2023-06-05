@@ -37,10 +37,11 @@ button{
     font-size:20px;
     background-color:rgb(16, 130, 150);
     border: 4px rgb(14, 52, 124) solid;
-    width: 263px;
+    width: 262px;
     height: 110px;
     color: rgb(14, 52, 124)
 }
+
 .navbartext{
     text-decoration:none;
 }
@@ -97,20 +98,42 @@ img{
 .menupos{
     display:flex;
 }
-.Page{
+.PageHome{
     background-color: rgb(27, 26, 26);
     height:2200px;
+    width:7000px;
+}
+.PageApplication{
+    background-color: rgb(27, 26, 26);
+    height:6700px;
+    width:7000px;
+}
+.PageTA{
+    background-color: rgb(27, 26, 26);
+    height:7300px;
+    width:7000px;
+}
+.PageHistory{
+    background-color: rgb(27, 26, 26);
+    height:3700px;
+    width:7000px;
+}
+.PageDP{
+    background-color: rgb(27, 26, 26);
+    height: 4900px;
     width:7000px;
 }
 .SupportUs{
     background-color:rgb(27, 26, 26);
     height:1000px;
     width:1500px;
+    border-left: 4px rgb(14, 52, 124) solid;;
 }
 .Content{
     background-color:rgb(27, 26, 26);
     height:1000px;
     width:1500px;
+    border-right: 4px rgb(14, 52, 124) solid;;
 }
 .menuheading{
     font-size:20px;
