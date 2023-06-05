@@ -59,16 +59,6 @@ button{
     margin-left: 0.1cm;
     color:rgb(16, 130, 150);
     font-size:50px;
-    margin-top: 0.7cm;
-    margin-bottom: 0.7cm;
-}
-
-.headform2{
-    margin-left: 0.1cm;
-    color:rgb(16, 130, 150);
-    font-size:50px;
-    margin-top: 0.7cm;
-    margin-bottom: 0.7cm;
 }
 
 .mainH{
@@ -81,13 +71,8 @@ button{
 .mainH2{
     color:rgb(16, 130, 150);
     font-size: 55px;
-    margin-top: 0.6cm;
-    margin-bottom: 0.6cm;
 }
-.mainH3{
-    color:rgb(16, 130, 150);
-    font-size: 55px;
-}
+
 .HPimg{
     width:600px;
     height:600px;
@@ -114,7 +99,7 @@ img{
 }
 .Page{
     background-color: rgb(27, 26, 26);
-    height:2216px;
+    height:2200px;
     width:7000px;
 }
 .SupportUs{
@@ -154,4 +139,30 @@ img{
 .menuform{
     width:200px;
     height:50px;
+}
+    .ContentButton{
+    font-size:27px;
+    background-color:rgb(16, 130, 150);
+    border: 4px rgb(14, 52, 124) solid;
+    width: 282px;
+    height: 110px;
+    color: rgb(14, 52, 124);
+}
+    .dropdown-menu{
+    display: none;
+    position: absolute;
+    color:aqua;
+    background-color: rgb(29, 31, 30);
+    font-size: 30px;
+}
+.Contenttext{
+    display: none;
+    position: absolute;
+    color:aqua;
+    background-color: rgb(29, 31, 30);
+    font-size: 30px;
+}
+
+.ContentButton:hover + .dropdown-menu{
+    display: block;
 }
