@@ -1,6 +1,7 @@
 * {
     padding: 0;
-    margin: 0;}
+    margin: 0;
+}
 
 .ulform{
     font-weight: bold;
@@ -27,19 +28,26 @@
 body{
     background-color:rgb(0, 0, 0);
 }
+
 .navbar button:hover{
     background-color:aqua;
+    border-radius: 30px;
+    transition: all 0.6s;
 }
+
 .current_page{
     background: aqua;
 }
+
 button{
     font-size:20px;
     background-color:rgb(16, 130, 150);
     border: 4px rgb(14, 52, 124) solid;
-    width: 262px;
+    border-radius: 12px;
+    width: 277px;
     height: 110px;
-    color: rgb(14, 52, 124)
+    color: rgb(14, 52, 124);
+    transition: all 0.6s;
 }
 
 .navbartext{
@@ -88,6 +96,7 @@ img{
     align-self: center;
     max-width: 100%;
     flex-direction:column;
+    border-radius: 12px;
 }
 
 .Sources{
@@ -95,75 +104,99 @@ img{
     font-size:35px;
     color:white;
 }
+
 .menupos{
     display:flex;
 }
+
 .PageHome{
-    background-color: rgb(27, 26, 26);
+    background-color:rgb(27, 26, 26);
     height:2200px;
     width:7000px;
+    border-left: 4px rgb(14, 52, 124) solid;
+    border-right: 4px rgb(14, 52, 124) solid;
 }
+
 .PageApplication{
     background-color: rgb(27, 26, 26);
     height:6700px;
     width:7000px;
+    border-left: 4px rgb(14, 52, 124) solid;
+    border-right: 4px rgb(14, 52, 124) solid;
 }
+
 .PageTA{
     background-color: rgb(27, 26, 26);
     height:7300px;
     width:7000px;
+    border-left: 4px rgb(14, 52, 124) solid;
+    border-right: 4px rgb(14, 52, 124) solid;
 }
+
 .PageHistory{
     background-color: rgb(27, 26, 26);
     height:3700px;
     width:7000px;
+    border-left: 4px rgb(14, 52, 124) solid;
+    border-right: 4px rgb(14, 52, 124) solid;
 }
+
 .PageDP{
     background-color: rgb(27, 26, 26);
     height: 4900px;
     width:7000px;
+    border-left: 4px rgb(14, 52, 124) solid;
+    border-right: 4px rgb(14, 52, 124) solid;
 }
+
 .SupportUs{
-    background-color:rgb(27, 26, 26);
     height:1000px;
     width:1500px;
-    border-left: 4px rgb(14, 52, 124) solid;;
+    margin-left: 30px;
 }
-.Content{
-    background-color:rgb(27, 26, 26);
-    height:1000px;
-    width:1500px;
-    border-right: 4px rgb(14, 52, 124) solid;;
+
+.SupportUs hr {
+    margin-left: -30px;
 }
+
 .menuheading{
     font-size:20px;
     background-color:rgb(16, 130, 150);
     border: 4px rgb(14, 52, 124) solid;
+    border-radius: 12px;
     width: 274px;
     height: 102px;
     color: rgb(14, 52, 124);
 }
+
 .ContentH{
-    margin-left: 25px;
-    margin-top: 25px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
+
 .SupportUsH{
     margin-left: 16px;
     margin-top: 25px;
 }
+
 .SupportUsH2{
     color:rgb(16, 130, 150);
     font-size:50px;
+    margin-left: 70px;
+    margin-top: 30px;
 }
+
 .menutext{
     font-size: 30px;
     color: white;
 }
+
 .menuform{
     width:200px;
     height:50px;
 }
-    .ContentButton{
+
+.ContentButton{
     font-size:27px;
     background-color:rgb(16, 130, 150);
     border: 4px rgb(14, 52, 124) solid;
@@ -188,4 +221,16 @@ img{
 
 .ContentButton:hover + .dropdown-menu{
     display: block;
+}
+
+.SupportUs form button {
+    border-radius: 12px;
+    transition: all 0.6s;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.SupportUs form button:hover {
+    border-radius: 24px;
+    transition: all 0.6s;
 }
